@@ -1,0 +1,8 @@
+name: Light
+version: '${version}'
+main: com.thepwo.light.Light
+api-version: 1.19
+prefix: Light
+authors: [ ThePwo ]
+description: Rapid & Easy development of powerful Spigot plugins
+website: https://thepwo.com
