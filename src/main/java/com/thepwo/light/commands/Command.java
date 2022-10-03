@@ -9,8 +9,8 @@ import java.lang.annotation.Target;
  * Used to denote Light custom command executors which should be applied to methods.
  * Note that the class inheriting the method MUST extend com.thepwo.light.commands.LightCommand.
  *
- * @since 1.0
  * @see com.thepwo.light.commands.LightCommand
+ * @since 1.0
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)

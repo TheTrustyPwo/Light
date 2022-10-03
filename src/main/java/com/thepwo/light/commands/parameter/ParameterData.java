@@ -35,4 +35,5 @@ public record ParameterData(
         this will return an empty list.
          */
         @NotNull List<String> suggestions
-) {}
+) {
+}

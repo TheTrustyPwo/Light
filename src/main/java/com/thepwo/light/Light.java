@@ -5,6 +5,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class Light extends JavaPlugin {
     private static Light instance;
 
+    public static Light getInstance() {
+        return instance;
+    }
+
     @Override
     public void onEnable() {
         instance = this;
@@ -14,9 +18,5 @@ public final class Light extends JavaPlugin {
     @Override
     public void onDisable() {
 
-    }
-
-    public static Light getInstance() {
-        return instance;
     }
 }
